@@ -8,7 +8,7 @@ public class Main {
         ArrayList<Integer> result = new ArrayList<>();
         for (int i = 0; i < intList.size(); i++) {
             int y = intList.get(i);
-            if (y > 0 && y%2 == 0) {
+            if (y > 0 && y % 2 == 0) {
                 result.add(y);
             }
         }
